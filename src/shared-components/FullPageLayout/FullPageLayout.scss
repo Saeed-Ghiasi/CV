@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+
+.full-page-layout {
+  width: 100vw;
+  height: 100vh;
+
+  .container {
+    width: $container-width-lg;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 7.3rem;
+    position: relative;
+    text-align: center;
+    
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+      color: $color-secondary;
+      margin-bottom: 3rem ;
+    }
+
+    h5 {
+      text-align: center;
+      color: $color-light;
+    }
+  }
+}

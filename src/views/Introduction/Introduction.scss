@@ -1,0 +1,69 @@
+@import "../../styles/variables.scss";
+
+.introduction {
+  .flex {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__imageArea {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__img {
+    background: linear-gradient($color-primary, transparent);
+    max-width: 20.9rem;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+  }
+
+  &__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+
+    &::after {
+      content: '';
+      width: 1px;
+      height: 2rem;
+      background-color: $color-primary;
+    }
+
+    a {
+      color: $color-primary;
+
+      &:hover {
+        color: $color-white;
+      }
+    }
+  }
+
+  &__scroll {
+    text-decoration: none;
+    color: $color-primary;
+    position: absolute;
+    right: -2rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+
+    &:hover {
+      color: $color-white;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    &__socials, &__scroll {
+      display: none;
+    }
+  }
+}
