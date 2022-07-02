@@ -1,0 +1,26 @@
+@import "../styles/variables.scss";
+
+.under-construction {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  border-radius: 20px;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  
+  max-width: fit-content;
+  display: flex;
+  justify-self: center;
+  gap: 2rem;
+  padding: 20px;
+  
+  font-size: larger;
+  font-weight: bold;
+  
+  z-index: 9999;
+
+  &:hover {
+    background-color: transparent;
+  }
+}

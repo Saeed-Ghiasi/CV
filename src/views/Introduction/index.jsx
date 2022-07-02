@@ -17,6 +17,7 @@ function Introduction() {
           <h5>Hello, I'm</h5>
           <h1>Saeed Ghiasi</h1>
           <h5>Front-End Developer | HR Enthusiast</h5>
+          
         </div>
 
         <div>
@@ -32,7 +33,7 @@ function Introduction() {
           <img className={`${BLOCK}__img`} src={Me} alt="Me!" />
         </div>
 
-        <a href="#contact" className={`${BLOCK}__scroll`}>Scroll Down</a>
+        <a href="#skills" className={`${BLOCK}__scroll`}>Scroll Down</a>
       </div>
     </FullPageLayout>
   )
