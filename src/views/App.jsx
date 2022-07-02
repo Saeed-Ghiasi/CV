@@ -12,7 +12,7 @@ function App() {
     <main>
       <div className="under-construction">
         <img width="30px" src={UnderConstruction} alt="under construction" />
-        Page Is Under Construction!
+        Under Construction!
       </div>
       <Introduction />
       <Skills />
