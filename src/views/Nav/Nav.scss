@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+
+.nav {
+  background-color: rgba($color: #ffffff, $alpha: 0.3);
+  width: max-content;
+  border-radius: 3rem;
+  position: fixed;
+  bottom: 2rem;
+  left: 50vw;
+  transform: translateX(-50%);
+  z-index: 9999;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  backdrop-filter: blur(15px);
+
+  a {
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 0.6rem;
+    display: flex;
+    font-size: 1rem;
+    color: $color-light;
+  }
+
+  a:hover {
+    background-color: rgba($color: #ffffff, $alpha: 0.3);
+  }
+
+  a.active {
+    background-color: $color-primary;
+    color: $color-white;
+  }
+}
