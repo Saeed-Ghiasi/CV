@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.91b90b85.css",
-    "main.js": "/CV/static/js/main.d5b25d83.js",
+    "main.css": "/CV/static/css/main.e1b586d3.css",
+    "main.js": "/CV/static/js/main.b5c5c8ad.js",
     "static/js/787.a71561b8.chunk.js": "/CV/static/js/787.a71561b8.chunk.js",
     "static/media/Me.png": "/CV/static/media/Me.9fad040a4c7333e34d33.png",
     "static/media/DivarLogo.png": "/CV/static/media/DivarLogo.9c6fdca3dd0ad1e33440.png",
     "static/media/AUTLogo.png": "/CV/static/media/AUTLogo.77cdce01791a81f81e87.png",
     "static/media/UnderConstruction.png": "/CV/static/media/UnderConstruction.278ac173edfe26ab7f9b.png",
+    "static/media/Experiences.png": "/CV/static/media/Experiences.2f9995a4645a7537f2dd.png",
     "static/media/ParenthesisLogo.png": "/CV/static/media/ParenthesisLogo.aa9096217c14e29e6d6d.png",
     "index.html": "/CV/index.html",
-    "main.91b90b85.css.map": "/CV/static/css/main.91b90b85.css.map",
-    "main.d5b25d83.js.map": "/CV/static/js/main.d5b25d83.js.map",
+    "main.e1b586d3.css.map": "/CV/static/css/main.e1b586d3.css.map",
+    "main.b5c5c8ad.js.map": "/CV/static/js/main.b5c5c8ad.js.map",
     "787.a71561b8.chunk.js.map": "/CV/static/js/787.a71561b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91b90b85.css",
-    "static/js/main.d5b25d83.js"
+    "static/css/main.e1b586d3.css",
+    "static/js/main.b5c5c8ad.js"
   ]
 }
