@@ -12,6 +12,15 @@
     position: relative;
     text-align: center;
     
+    
+    @media screen and (max-width: 1024px) {
+      width: $container-width-md;
+    }
+
+    @media screen and (max-width: 600px) {
+      width: $container-width-sm;
+    }
+
     h1 {
       text-align: center;
     }
