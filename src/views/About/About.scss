@@ -1,0 +1,29 @@
+@import "../../styles/variables.scss";
+
+.about {
+
+  &__main {
+    height: 100%;
+    display: flex;
+    gap: 5rem;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+      gap: 0rem;
+    }
+  }
+
+  &__content {
+    p {
+      margin: 2rem 0px 2.6rem;
+      color: $color-light;
+      text-align: start;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+}

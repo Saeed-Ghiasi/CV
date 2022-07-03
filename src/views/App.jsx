@@ -16,6 +16,7 @@ function App() {
         Under Construction!
       </div>
       <Introduction />
+      <About />
       <Experiences />
       <Skills />
     </main>

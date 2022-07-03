@@ -24,7 +24,7 @@ function Introduction() {
         </div>
 
         <div className={`${BLOCK}__socials`}>
-          <a href="https://www.linkedin.com/in/saeed-ghiasi/" target="__blank"><BsLinkedin /></a>
+          <a href="https://www.linkedin.com/in/saeed-ghiasi/" target="_blank"><BsLinkedin /></a>
           <a href="https://github.com/Saeed-Ghiasi" target="_blank"><BsGithub /></a>
           <a href="https://saeedghiasi.t@gmail.com" target="_blank"><MdEmail /></a>
         </div>
