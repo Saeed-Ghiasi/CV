@@ -2,13 +2,13 @@
 
 .full-page-layout {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   .container {
     width: $container-width-lg;
     height: 100%;
     margin: 0 auto;
-    padding-top: 5.3rem;
+    padding-top: 10vh;
     position: relative;
     text-align: center;
     

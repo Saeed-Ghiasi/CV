@@ -3,6 +3,7 @@ import React from 'react';
 import Introduction from './Introduction';
 import About from './About';
 import Skills from './Skills';
+import Experiences from './Experiences';
 
 import UnderConstruction from '../assets/UnderConstruction.png';
 import './App.scss';
@@ -15,6 +16,7 @@ function App() {
         Under Construction!
       </div>
       <Introduction />
+      <Experiences />
       <Skills />
     </main>
   );

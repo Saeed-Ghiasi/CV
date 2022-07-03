@@ -17,20 +17,16 @@ function Introduction() {
           <h5>Hello, I'm</h5>
           <h1>Saeed Ghiasi</h1>
           <h5>Front-End Developer | HR Enthusiast</h5>
-          
         </div>
 
-        <div>
+        <div className={`${BLOCK}__imageArea`}>
+          <img className={`${BLOCK}__img`} src={Me} alt="Me!" />
         </div>
 
         <div className={`${BLOCK}__socials`}>
           <a href="https://www.linkedin.com/in/saeed-ghiasi/" target="__blank"><BsLinkedin /></a>
           <a href="https://github.com/Saeed-Ghiasi" target="_blank"><BsGithub /></a>
           <a href="https://saeedghiasi.t@gmail.com" target="_blank"><MdEmail /></a>
-        </div>
-
-        <div className={`${BLOCK}__imageArea`}>
-          <img className={`${BLOCK}__img`} src={Me} alt="Me!" />
         </div>
 
         <a href="#skills" className={`${BLOCK}__scroll`}>Scroll Down</a>
